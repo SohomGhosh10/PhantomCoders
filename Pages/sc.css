@@ -1,0 +1,63 @@
+#head{
+    background-color: purple;
+    height: 100px;
+    position: relative;
+    border: 0%;
+    margin: 0%;
+    padding: 0%;
+}
+div[id="logo"]{
+    background-color: black;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left:90%;
+    border: 0%;
+    margin: 0%;
+    padding: 0%;
+   }
+img[id="logo"]{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.heading{
+     color: white ;
+     text-align: center;
+     font-size: 30px;
+}
+div[class="details"]{
+    background-color: rgb(252, 175, 175) ;
+    height: 500px;
+    position: relative;
+}
+.details>h1 ol{
+    text-align: left;
+    }
+ol{
+    font-size: 30px;
+}
+.details>img{
+    position: absolute;
+    height: 300px;
+    left:80%;
+    top:20%
+}
+footer[id="two"]{
+    background-color: purple;
+    height: 200px;
+    width: auto;
+    border: 0%;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+}
+#two>p{
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    left:42%;
+    top:1%;
+}

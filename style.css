@@ -1,0 +1,76 @@
+#head{
+    background-color: purple;
+    height: 200px;
+    position: relative;
+    border: 0%;
+    margin: 0%;
+    padding: 0%;
+}
+div[id="logo"]{
+   background-color: black;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left:90%;
+    border: 0%;
+    margin: 0%;
+    padding: 0%;
+   }
+img[id="logo"]{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.heading{
+     color: white ;
+     text-align: center;
+     font-size: 50px;
+}
+div[class="Base"]{
+    background-color: rgb(252, 175, 175);
+    height: 400px;
+    position: relative;
+    border: 0%;
+    margin: 0%;
+    padding: 0%;
+}
+img[class="Base"]{
+    height: 350px;
+    float: left;
+    position: relative;
+    top: 25px;
+}
+p[class="Base"]{
+    font-size: 50px;
+    text-align: right;
+    font-family: 'Caveat', cursive;
+
+}
+div[class="Cources"]{
+    background-color: skyblue;
+    border: 0%;
+    margin: 0%;
+    padding: 0%;
+}
+p[class="Cources"]{
+    font-size: 30px;
+    color:aliceblue;
+}
+footer[id="one"]{
+    background-color: purple;
+    height: 100px;
+    width: auto;
+    border: 0%;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+}
+#one>p{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left:50%;
+    top:1%;
+}
